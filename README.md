@@ -7,6 +7,21 @@ This is a Rust-based token wallet for the Internet Computer Protocol (ICP) block
 - **Receive Tokens**: Receive tokens and update wallet balance.
 - **Display Balance**: Fetch and display the current token balance.
 
+## Directory Structure
+
+icp-token-wallet/
+├── src/
+│   ├── lib.rs            # Main contract logic
+│   ├── types.rs          # Token data types
+│   ├── tests.rs          # Unit tests
+│   └── utils.rs          # Helper functions
+├── canisters/
+│   ├── wallet.did        # Candid interface for wallet
+│   ├── token.did         # Candid interface for IRCRC2
+├── Cargo.toml            # Rust dependencies and project metadata
+└── README.md             # Documentation
+
+
 ## Setup
 
 ### Prerequisites
